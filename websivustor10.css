@@ -1,0 +1,30 @@
+body {
+
+}
+
+.header {
+
+}
+
+.ylapalkki {
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #643f1e;
+    color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.footer-osio {
+flex: 1;
+min-width: 200px;
+}
+
+.footer-osio h1 {
+
+}
