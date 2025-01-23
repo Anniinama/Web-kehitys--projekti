@@ -12,7 +12,7 @@ body {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #643f1e;
     color: white;
     flex-direction: row;
@@ -23,6 +23,8 @@ body {
 .footer-osio {
     flex: 1;
     min-width: 200px;
+    text-align: center;
+    padding: 10px;
 }
 
 .footer-osio h1 {
