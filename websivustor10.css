@@ -28,3 +28,13 @@ min-width: 200px;
 .footer-osio h1 {
 
 }
+    
+.footer-osio a {
+    color: white !important;  
+    text-decoration: none; 
+}
+
+.footer-osio a i {
+    color: white !important;
+    font-size: 24px; 
+}
