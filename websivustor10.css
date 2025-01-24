@@ -1,20 +1,39 @@
 body {
-
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
+    background-image: url("herotausta1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
 
 }
 
-.ylapalkki {
+.topbar {
+    background-color: #ede9e3;
+    font-size: ;
+    text-align: center;
+    color: black;
+}
 
+.hero h1  {
+    font-size: 140px;
+}
+.hero p {
+    font-size: 30px;
 }
 
 .navbar{
     width: 100%;
-    background-color: transparent;
+    background-color: #FFFFFF50;
     text-transform: uppercase;
     padding: 20px 0;
+    margin-top: auto;
 }
 
 .navbar-nav {
@@ -54,25 +73,35 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
 }
 
-.footer-osio {
+.footer-box {
     flex: 1;
     min-width: 200px;
     text-align: center;
     padding: 10px;
 }
 
-.footer-osio h1 {
+.footer-box h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 
+.footer-box p {
+    font-size: 16px;
+    line-height: 0.9;
 }
     
-.footer-osio a {
-    color: white !important;  
+.footer-box a {
+    color: white;  
     text-decoration: none; 
+    font-size: 16px;
 }
 
-.footer-osio a i {
-    color: white !important;
+.footer-box a i {
+    color: white;
     font-size: 24px; 
 }
