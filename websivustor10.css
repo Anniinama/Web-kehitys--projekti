@@ -211,6 +211,17 @@ body {
     }
 }
 
+@media (max-width: 900px) {
+    .innercontainer {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .innercontainer img {
+        max-width: 300px;
+    }
+}
+
 /*******************768px*****************/
 
 @media (max-width: 768px) {
