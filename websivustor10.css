@@ -263,14 +263,17 @@ body {
     }
 
 
-    .innercontainer img {
-        max-width: 300px;
+    .footer {
+        flex-direction: column; 
+        align-items: center;
     }
 
-    .footer {
-        flex-direction: row; 
-        justify-content: space-around;
-        padding: 10px;
+    .footer-box {
+        flex: 1; 
+        min-width: 300px; 
+        max-width: 300px; 
+        margin: 10px 0; 
+        text-align: center;
     }
 }
 
@@ -316,18 +319,5 @@ body {
 
     .innercontainer img {
         max-width: 250px;
-    }
-
-    .footer {
-        flex-direction: column; 
-        align-items: center;
-    }
-
-    .footer-box {
-        flex: 1; 
-        min-width: 100%; 
-        max-width: none; 
-        margin: 10px 0; 
-        text-align: center;
     }
 }
