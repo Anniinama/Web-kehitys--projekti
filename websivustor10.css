@@ -262,9 +262,6 @@ body {
         align-items: center;
     }
 
-    .innercontainer div {
-        margin: 10px 0;
-    }
 
     .innercontainer img {
         max-width: 300px;
