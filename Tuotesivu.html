@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hilla - Tuotteet</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <title>Tuoteluettelo</title>
         <link rel="stylesheet" href="websivustor10.css"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     </head>
 
     <body>
@@ -37,118 +36,135 @@
     
         <main class="container mt-4">
             <h1 class="text-center">Tuotteet</h1>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="row mt-4">
-                <!-- Tuoterivi 1 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="tuote1.jpg" class="card-img-top" alt="Tuote 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Tuote 1</h5>
-                            <p class="card-text">lyhyt kuvaus tuotteesta.</p>
-                            <p><strong>Hinta:</strong> 29,90 €</p>
-                            <button class="btn btn-primary">Lisää ostoskoriin</button>
+            
+            <!-- Yleisvalikko -->
+            <nav class="nav justify-content-center mt-4">
+                <a class="nav-link btn btn-outline-primary mx-2" href="#pannat">Pannat</a>
+                <a class="nav-link btn btn-outline-primary mx-2" href="#hihnat">Hihnat</a>
+                <a class="nav-link btn btn-outline-primary mx-2" href="#lelut">Lelut</a>
+            </nav>
+    
+            <br><br>
+    
+            <!-- Pannat-osio -->
+            <section id="pannat" class="mt-5">
+                <h2>Pannat</h2>
+                <div class="row mt-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="panta1.jpg" class="card-img-top" alt="Panta 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Panta 1</h5>
+                                <p class="card-text">Kuvaus pannasta 1.</p>
+                                <p><strong>Hinta:</strong> 19,90 €</p>
+                                <button class="btn btn-primary">Lisää ostoskoriin</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="panta2.jpg" class="card-img-top" alt="Panta 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Panta 2</h5>
+                                <p class="card-text">Kuvaus pannasta 2.</p>
+                                <p><strong>Hinta:</strong> 24,90 €</p>
+                                <button class="btn btn-primary">Lisää ostoskoriin</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="panta3.jpg" class="card-img-top" alt="Panta 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Panta 3</h5>
+                                <p class="card-text">Kuvaus pannasta 3.</p>
+                                <p><strong>Hinta:</strong> 29,90 €</p>
+                                <button class="btn btn-primary">Lisää ostoskoriin</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="tuote2.jpg" class="card-img-top" alt="Tuote 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Tuote 2</h5>
-                            <p class="card-text">lyhyt kuvaus tuotteesta.</p>
-                            <p><strong>Hinta:</strong> 39,90 €</p>
-                            <button class="btn btn-primary">Lisää ostoskoriin</button>
+            </section>
+    
+            <!-- Hihnat-osio -->
+            <section id="hihnat" class="mt-5">
+                <h2>Hihnat</h2>
+                <div class="row mt-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="Köysitalutin.webp" class="card-img-top" alt="Hihna 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Hihna 1</h5>
+                                <p class="card-text">Kuvaus hihnasta 1.</p>
+                                <p><strong>Hinta:</strong> 29,90 €</p>
+                                <button class="btn btn-primary">Lisää ostoskoriin</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="hihna2.jpg" class="card-img-top" alt="Hihna 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Hihna 2</h5>
+                                <p class="card-text">Kuvaus hihnasta 2.</p>
+                                <p><strong>Hinta:</strong> 34,90 €</p>
+                                <button class="btn btn-primary">Lisää ostoskoriin</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="hihna3.jpg" class="card-img-top" alt="Hihna 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Hihna 3</h5>
+                                <p class="card-text">Kuvaus hihnasta 3.</p>
+                                <p><strong>Hinta:</strong> 39,90 €</p>
+                                <button class="btn btn-primary">Lisää ostoskoriin</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="tuote3.jpg" class="card-img-top" alt="Tuote 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Tuote 3</h5>
-                            <p class="card-text">lyhyt kuvaus tuotteesta.</p>
-                            <p><strong>Hinta:</strong> 49,90 €</p>
-                            <button class="btn btn-primary">Lisää ostoskoriin</button>
+            </section>
+    
+            <!-- Lelut-osio -->
+            <section id="lelut" class="mt-5">
+                <h2>Lelut</h2>
+                <div class="row mt-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="lelu1.jpg" class="card-img-top" alt="Lelu 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Lelu 1</h5>
+                                <p class="card-text">Kuvaus lelusta 1.</p>
+                                <p><strong>Hinta:</strong> 14,90 €</p>
+                                <button class="btn btn-primary">Lisää ostoskoriin</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="lelu2.jpg" class="card-img-top" alt="Lelu 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Lelu 2</h5>
+                                <p class="card-text">Kuvaus lelusta 2.</p>
+                                <p><strong>Hinta:</strong> 19,90 €</p>
+                                <button class="btn btn-primary">Lisää ostoskoriin</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="lelu3.jpg" class="card-img-top" alt="Lelu 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Lelu 3</h5>
+                                <p class="card-text">Kuvaus lelusta 3.</p>
+                                <p><strong>Hinta:</strong> 24,90 €</p>
+                                <button class="btn btn-primary">Lisää ostoskoriin</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row mt-4">
-                <!-- Tuoterivi 2 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="tuote4.jpg" class="card-img-top" alt="Tuote 4">
-                        <div class="card-body">
-                            <h5 class="card-title">Tuote 4</h5>
-                            <p class="card-text">lyhyt kuvaus tuotteesta.</p>
-                            <p><strong>Hinta:</strong> 34,90 €</p>
-                            <button class="btn btn-primary">Lisää ostoskoriin</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="tuote5.jpg" class="card-img-top" alt="Tuote 5">
-                        <div class="card-body">
-                            <h5 class="card-title">Tuote 5</h5>
-                            <p class="card-text">lyhyt kuvaus tuotteesta.</p>
-                            <p><strong>Hinta:</strong> 44,90 €</p>
-                            <button class="btn btn-primary">Lisää ostoskoriin</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="tuote6.jpg" class="card-img-top" alt="Tuote 6">
-                        <div class="card-body">
-                            <h5 class="card-title">Tuote 6</h5>
-                            <p class="card-text">lyhyt kuvaus tuotteesta.</p>
-                            <p><strong>Hinta:</strong> 54,90 €</p>
-                            <button class="btn btn-primary">Lisää ostoskoriin</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <!-- Tuoterivi 3 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="tuote7.jpg" class="card-img-top" alt="Tuote 7">
-                        <div class="card-body">
-                            <h5 class="card-title">Tuote 7</h5>
-                            <p class="card-text">lyhyt kuvaus tuotteesta.</p>
-                            <p><strong>Hinta:</strong> 24,90 €</p>
-                            <button class="btn btn-primary">Lisää ostoskoriin</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="tuote8.jpg" class="card-img-top" alt="Tuote 8">
-                        <div class="card-body">
-                            <h5 class="card-title">Tuote 8</h5>
-                            <p class="card-text">lyhyt kuvaus tuotteesta.</p>
-                            <p><strong>Hinta:</strong> 64,90 €</p>
-                            <button class="btn btn-primary">Lisää ostoskoriin</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="tuote9.jpg" class="card-img-top" alt="Tuote 9">
-                        <div class="card-body">
-                            <h5 class="card-title">Tuote 9</h5>
-                            <p class="card-text">lyhyt kuvaus tuotteesta.</p>
-                            <p><strong>Hinta:</strong> 74,90 €</p>
-                            <button class="btn btn-primary">Lisää ostoskoriin</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </section>
         </main>
     
         <footer class="footer">
@@ -157,7 +173,6 @@
             </div>
         </footer>
     
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
     </html>
