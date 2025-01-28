@@ -379,3 +379,35 @@ body {
         max-width: 250px;
     }
 }
+/* Navigaation tyylit */
+.nav-link {
+    color: #000 !important; 
+    font-weight: 500; 
+    border: 2px solid #000;
+    border-radius: 5px; 
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #000;
+    color: #fff !important;
+}
+
+.btn-primary {
+    background-color: #6f5335 !important;
+    border-color: #6f5335 !important;
+    color: #fff;
+    font-weight: 600;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e67348 !important;
+    border-color: #e67348 !important;
+}
+
+.btn-primary:focus, .btn-primary:active {
+    background-color: #e67348 !important; 
+    border-color: #e67348 !important;
+}
