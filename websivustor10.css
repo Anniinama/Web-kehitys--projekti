@@ -185,6 +185,12 @@ body {
     margin-left: 0 !important;
 }
 
+.mapskuva{
+    padding: 10 20 20 10;
+    margin-bottom: 15px;
+    width: 700px;
+    height: auto;
+}
 
 
 /*******************Footer*****************/
