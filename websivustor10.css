@@ -264,7 +264,11 @@ body {
 @media (max-width: 991px) {
     .hero h2, .hero p {
     display: none; }
+    }
 
+    .hero h1 {
+        margin: 15px;
+    }
 /*******************900px*****************/
 
 @media (max-width: 900px) {
