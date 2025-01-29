@@ -477,3 +477,8 @@ p {
 .btn:hover {
     background-color: #543c28;
 }
+
+.product-nav {
+    display: flex;
+    justify-content: center;
+}
