@@ -34,7 +34,7 @@ p {
 .header {
     display: flex;
     flex-direction: column;
-    background-image: url("herotausta1.png");
+    background-image: url("Kuvat/Tausta/herotausta1.png");
     background-position: center;
     background-repeat: no-repeat;
     color: white;
