@@ -10,13 +10,14 @@ h1 {
 }
 
 h2{
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 1px;
     font-size: 28px;
     font-family: 'Playfair Display', serif;
 }
 
 h3{
+    margin-top: 5px;
     margin-bottom: 20px;
     font-size: 25px;
     font-family: 'Playfair Display', serif;
