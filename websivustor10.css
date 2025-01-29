@@ -89,21 +89,28 @@ body {
 
 .nav-link {
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-color: white;
     color: #9d7565;
-    font-size: 15px;
+    font-size: 13px;
     transition: background-color 0.3s ease;
     text-align: center;
     display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    font-family: 'Copperplate', fantasy;
 }
-
 .nav-link:hover {
     background-color: #ddd;
 }
-
 .nav-link.active {
     background-color: #ccc; 
+}
+.nav-link:hover {
+    background-color: #000;
+    color: #fff !important;
 }
 
 /****************Maincontainer*************/
