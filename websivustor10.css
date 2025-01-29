@@ -1,7 +1,16 @@
 body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Playfair Display', serif;
 
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
 }
 
 /********************Header****************/
@@ -18,6 +27,7 @@ body {
 }
 
 .topbar {
+    font-family: "Roboto", sans-serif;
     background-color: #ede9e3;
     font-size: 15px;
     color: black;
@@ -68,6 +78,7 @@ body {
 
 .navbar{
     width: 100%;
+    font-family: "Roboto", sans-serif;
     background-color: #FFFFFF50;
     text-transform: uppercase;
     padding: 20px 0;
@@ -89,6 +100,7 @@ body {
 
 .nav-link {
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
     padding: 10px 40px;
     background-color: white;
     color: #9d7565;
@@ -100,7 +112,6 @@ body {
     align-items: center;
     width: 200px;
     height: 35px;
-    font-family: 'Copperplate', fantasy;
 }
 .nav-link:hover {
     background-color: #ddd;
@@ -126,12 +137,6 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.maincontainer h1 {
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 40px;
-    font-size: 30px;
-}
-
 .innercontainer { 
     display: flex; 
     flex: 1; 
@@ -142,6 +147,7 @@ body {
     background-color: #efebe5;
     align-items: center;
     margin: auto;
+    width: 100%;
 }
 
 .innercontainer div {
@@ -208,6 +214,7 @@ body {
     justify-content: space-around;
     background-color: #643f1e;
     color: #efebe5;
+    font-family: "Roboto", sans-serif;
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 40px;
