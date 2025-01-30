@@ -449,6 +449,7 @@ p {
         gap: 10px;
     }
     .navbar-tuotteet {
+        display: flex;
         flex-direction: column;
         align-items: center;
         gap: 10px;
@@ -458,6 +459,7 @@ p {
         width: 100%;
         max-width: 300px;
         text-align: center;
+        padding: 10px;
     }
 
     .maincontainer {
@@ -471,10 +473,15 @@ p {
 
     @media (max-width: 768px) {
         .navbar-tuotteet {
+            display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 10px;
+            gap: 15px;
         }
+        .nav-tuotteet-link + .nav-tuotteet-link {
+            margin-top: 10px;
+        }
+    }
     
         .nav-tuotteet-link {
             width: 100%; 
