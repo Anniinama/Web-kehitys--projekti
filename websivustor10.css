@@ -456,6 +456,7 @@ p {
 
     @media (max-width: 768px) {
         .navbar-tuotteet {
+            display: flex;
             flex-direction: column;
             align-items: center;
             gap: 10px;
@@ -470,10 +471,9 @@ p {
         .nav-tuotteet-link + .nav-tuotteet-link {
             margin-top: 10px;
         }
-    }
-
 
     .footer {
+        display: flex;
         flex-direction: column; 
         align-items: center;
     }
@@ -485,7 +485,7 @@ p {
         margin: 10px 0; 
         text-align: center;
     }
-
+}
 /*******************480px*****************/
 
 @media (max-width: 480px) {
