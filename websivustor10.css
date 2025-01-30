@@ -221,7 +221,40 @@ p {
     background-color: #efebe5;
 }
 
+.navbar-tuotteet{
+    width: fit-content; 
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    padding: 20px 0; 
+    margin: auto; 
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center; 
+    background-color: transparent !important;
+}
+.nav-tuotteet-link{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 20px;
+    color: #9d7565;
+    font-size: 16px;
+    text-align: center;
+    display: inline-flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 47px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+}
 
+.nav-tuotteet-link:hover {
+    background-color: #000;
+    color: #fff !important;
+}
 /*******************Footer*****************/
 
 
