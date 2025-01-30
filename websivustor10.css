@@ -467,7 +467,6 @@ p {
             text-align: center;
         }
     }
-    @media (max-width: 768px) {
         .nav-tuotteet-link + .nav-tuotteet-link {
             margin-top: 10px;
         }
@@ -486,7 +485,6 @@ p {
         margin: 10px 0; 
         text-align: center;
     }
-}
 
 /*******************480px*****************/
 
