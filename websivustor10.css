@@ -89,7 +89,7 @@ p {
 }
 
 
-/*****************Navigointi***************/
+/*****************Päävalikon navigointi***************/
 
 .navbar{
     width: 100%;
@@ -117,6 +117,7 @@ p {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     padding: 10px 20px;
+    padding-bottom: 32px;
     background-color: white;
     color: #9d7565;
     font-size: 16px;
@@ -136,6 +137,43 @@ p {
     background-color: #ccc; 
 }
 .nav-link:hover {
+    background-color: #000;
+    color: #fff !important;
+}
+
+/************Tuotteet-sivun navigointi************/
+.navbar-tuotteet{
+    width: fit-content; 
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px; 
+    margin: 0 auto; 
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: center;
+    background-color: transparent !important;
+}
+.nav-tuotteet-link{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 30px 10px 30px;
+    color: #9d7565;
+    font-size: 16px;
+    text-align: center;
+    display: inline-flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 47px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+}
+
+.nav-tuotteet-link:hover {
     background-color: #000;
     color: #fff !important;
 }
@@ -222,40 +260,6 @@ p {
     background-color: #efebe5;
 }
 
-.navbar-tuotteet{
-    width: fit-content; 
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    padding: 20px 0; 
-    margin: auto; 
-    display: flex;
-    gap: 50px;
-    flex-wrap: wrap;
-    justify-content: center; 
-    background-color: transparent !important;
-}
-.nav-tuotteet-link{
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    padding: 10px 20px;
-    color: #9d7565;
-    font-size: 16px;
-    text-align: center;
-    display: inline-flex;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 47px;
-    background-color: white;
-    transition: background-color 0.3s ease;
-    margin-left: 5px;
-}
-
-.nav-tuotteet-link:hover {
-    background-color: #000;
-    color: #fff !important;
-}
 .product-container {
     display: flex;
     justify-content: center;
@@ -444,6 +448,17 @@ p {
         align-items: center;
         gap: 10px;
     }
+    .navbar-tuotteet {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-tuotteet-link {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
 
     .maincontainer {
         padding: 20px;
@@ -504,6 +519,13 @@ p {
 
     .navbar-nav {
         gap: 5px;
+    }
+
+    .navbar-tuotteet{
+        padding: 10px 0;
+    }
+    .nav-tuotteet-link{
+        gap:5px;
     }
 
     .maincontainer {
