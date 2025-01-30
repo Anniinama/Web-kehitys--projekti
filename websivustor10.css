@@ -256,6 +256,65 @@ p {
     background-color: #000;
     color: #fff !important;
 }
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: auto; 
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.text-center{
+    margin-top: 10px;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #6f5335;
+    flex: 1 1 300px;
+    max-width: 320px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: contain;
+}
+
+.price {
+    font-weight: bold;
+    color: #6f5335;
+}
+
+.add-to-card {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn {
+    background-color: #6f5335;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #543c28;
+}
+
+
 /*******************Footer*****************/
 
 
@@ -467,61 +526,4 @@ p {
     .innercontainer img {
         max-width: 250px;
     }
-}
-.product-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
-    gap: 20px; 
-    max-width: 1200px; 
-    margin: auto; 
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
-.text-center{
-    margin-top: 10px;
-}
-
-.product-card {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #6f5335;
-    flex: 1 1 300px;
-    max-width: 320px;
-}
-
-.product-card img {
-    width: 100%;
-    height: auto;
-    max-height: 180px;
-    object-fit: contain;
-}
-
-.price {
-    font-weight: bold;
-    color: #6f5335;
-}
-
-.add-to-card {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.btn {
-    background-color: #6f5335;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background-color: #543c28;
 }
